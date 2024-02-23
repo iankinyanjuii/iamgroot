@@ -8,9 +8,7 @@ test('test', async ({ page }) => {
   //Clicks on new account creation 
   await page.getByPlaceholder('First Name').click();
   await page.getByPlaceholder('First Name').fill('Iam');
-  //await page.getByPlaceholder('First Name').press('Tab');
   await page.getByPlaceholder('Last Name').fill('Groot');
-  //await page.getByPlaceholder('Last Name').press('Tab');
   await page.getByPlaceholder('Email').fill('teewesterduser1@gmail.com');
   await page.getByPlaceholder('Email').press('Tab');
   await page.getByPlaceholder('New Password').fill('iamgroot2024');
